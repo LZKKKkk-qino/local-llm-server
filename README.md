@@ -18,13 +18,13 @@
 
 ## 核心特性
 
-- ✅ OpenAI API 格式兼容 (`/v1/chat/completions`)
-- ✅ 支持流式输出 (SSE)
-- ✅ 支持工具调用 (Function Calling)
-- ✅ Web 聊天界面 (Gradio)
-- ✅ 命令行客户端示例
-- ✅ GPU 加速推理
-- ✅ 自动内存清理
+- ✅ **OpenAI API 格式兼容** (`/v1/chat/completions`) - 无缝替换 OpenAI 接口
+- ✅ **流式输出支持** (SSE) - 实时响应体验
+- ✅ **工具调用支持** (Function Calling) - 扩展模型能力
+- ✅ **Web 聊天界面** (Gradio) - 零代码部署体验
+- ✅ **命令行客户端示例** - 快速集成开发
+- ✅ **GPU 加速推理** - 高性能模型运行
+- ✅ **自动内存清理** - 优化资源占用
 
 ## 环境要求
 
@@ -90,7 +90,19 @@ python scripts/chat_robot.py
 
 浏览器将自动打开 `http://127.0.0.1:6006`
 
-### API 调用示例
+## 为什么选择本地私有化部署？
+
+| 对比项 | 云端 API (OpenAI/通义等) | 本地私有部署 |
+|--------|------------------------|-------------|
+| 数据隐私 | 数据需上传到第三方服务器 | 🔒 数据完全本地处理 |
+| 持续成本 | 按使用量计费，长期成本高 | 💰 一次性硬件投入，无 API 费用 |
+| 网络依赖 | 需要稳定网络连接 | 🌐 内网运行，无网络依赖 |
+| 模型定制 | 受限于提供商 | 🛠️ 自由切换/微调模型 |
+| 并发限制 | 受限于提供商额度 | 🚀 自由扩展并发能力 |
+
+### OpenAI 兼容 API 调用示例
+
+无需修改现有代码，只需更改 `base_url` 即可替换 OpenAI 接口：
 
 ```python
 from openai import OpenAI
@@ -127,6 +139,17 @@ for chunk in stream:
     if chunk.choices[0].delta.content:
         print(chunk.choices[0].delta.content, end="", flush=True)
 ```
+
+## OpenAI API 兼容性
+
+本项目实现了完整的 OpenAI Chat Completions API 规范，包括：
+
+- ✅ 请求/响应格式完全兼容
+- ✅ 支持流式输出 (Server-Sent Events)
+- ✅ 支持 Function Calling
+- ✅ 支持所有标准参数 (temperature, top_p, max_tokens, etc.)
+
+**这意味着您可以直接替换 OpenAI 的 `base_url`，无需修改现有代码！**
 
 ## API 端点
 
