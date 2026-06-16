@@ -4,7 +4,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/Transformers-4.35+-orange.svg)](https://huggingface.co/docs/transformers/index)
+[![vLLM](https://img.shields.io/badge/vLLM-0.2+-red.svg)](https://github.com/vllm-project/vllm)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
+[![Gradio](https://img.shields.io/badge/Gradio-4.0+-ff9f0c.svg)](https://gradio.app/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-1.0+-white.svg)](https://github.com/openai/openai-python)
+[![Pydantic](https://img.shields.io/badge/Pydantic-2.0+-E92063.svg)](https://docs.pydantic.dev/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-0.24+-009688.svg)](https://www.uvicorn.org/)
 
 ## 项目简介
 
