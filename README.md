@@ -1,4 +1,4 @@
-# Local LLM FullStack
+# Local LLM Server
 
 本地大模型私有化部署方案，提供 OpenAI 兼容 API 和 Web 交互界面。
 
