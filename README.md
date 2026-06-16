@@ -1,17 +1,22 @@
-# Qwen/GLM 模型 API 服务
+# Local LLM FullStack
 
-一个基于 FastAPI 的 OpenAI 兼容 API 服务器，用于在本地运行 Qwen/GLM 系列大语言模型。
+本地大模型私有化部署方案，提供 OpenAI 兼容 API 和 Web 交互界面。
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 
 ## 项目简介
 
-本项目提供了一个完整的本地大模型服务解决方案，包括：
+本项目提供了一个**本地私有化部署**的完整大模型服务解决方案：
 
-- **OpenAI 兼容 API**：完全兼容 OpenAI Chat Completions API，支持流式和非流式输出
-- **Web 聊天界面**：基于 Gradio 的交互式聊天机器人
-- **工具调用支持**：支持 Function Calling 功能
-- **多模型支持**：支持 Qwen、GLM 等多种开源模型
+- 🔒 **隐私安全**：本地运行，数据无需上传云端
+- 🔄 **OpenAI 兼容 API**：完全兼容 OpenAI Chat Completions API，支持流式和非流式输出
+- 🌐 **Web 交互界面**：基于 Gradio 的交互式聊天机器人
+- 🛠️ **工具调用支持**：支持 Function Calling 功能
+- 🤖 **多模型支持**：支持 Qwen、GLM 等多种开源模型
 
-## 功能特性
+## 核心特性
 
 - ✅ OpenAI API 格式兼容 (`/v1/chat/completions`)
 - ✅ 支持流式输出 (SSE)
