@@ -38,7 +38,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/your-username/employment.git
+git clone https://github.com/LZKKKkk-qino/local-llm-server
 cd employment
 ```
 
@@ -255,7 +255,7 @@ engine_args = AsyncEngineArgs(
 
 如有问题或建议，欢迎通过以下方式联系：
 
-- GitHub Issues: [https://github.com/your-username/employment/issues](https://github.com/your-username/employment/issues)
+- GitHub Issues: [https://github.com/LZKKKkk-qino/local-llm-server/issues](https://github.com/your-username/employment/issues)
 
 ---
 
