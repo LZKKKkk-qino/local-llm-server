@@ -3,7 +3,7 @@
 本地大模型私有化部署方案，提供 OpenAI 兼容 API 和 Web 交互界面。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-4.35+-orange.svg)](https://huggingface.co/docs/transformers/index)
 [![vLLM](https://img.shields.io/badge/vLLM-0.2+-red.svg)](https://github.com/vllm-project/vllm)
@@ -35,7 +35,7 @@
 
 ## 环境要求
 
-- Python 3.8+
+- Python 3.10+
 - CUDA 11.8+ (GPU 支持)
 - 8GB+ RAM
 - 支持 CUDA 的 NVIDIA GPU
