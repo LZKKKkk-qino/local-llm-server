@@ -1,0 +1,24 @@
+# 核心依赖
+torch>=2.0.0
+transformers>=4.35.0
+vllm>=0.2.0
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# API 相关
+pydantic>=2.0.0
+sse-starlette>=1.8.0
+
+# Web 界面
+gradio>=4.0.0
+
+# OpenAI 客户端
+openai>=1.0.0
+
+# 模型优化
+peft>=0.7.0
+accelerate>=0.24.0
+
+# 可选依赖
+# modelscope  # 用于下载国内镜像模型
+# flash-attn  # 用于加速注意力机制计算
